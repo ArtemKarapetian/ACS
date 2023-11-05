@@ -18,7 +18,7 @@ def main():
 
     for i in range(len(tests)):
         try:
-            result = subprocess.run(["java", "-jar", "rars1_6.jar", "idz.asm"], input=tests[i], text=True, capture_output=True)
+            result = subprocess.run(["java", "-jar", "rars1_6.jar", "main_for_python.s"], input=tests[i], text=True, capture_output=True)
             print("Test number " + str(i + 1))
             print("User input:\n" + tests[i].replace('\n', ' '))
             final_line = result.stdout.split()[-7:]
