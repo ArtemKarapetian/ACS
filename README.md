@@ -1,7 +1,7 @@
 # Карапетян Артём Гарегинович, БПИ228, @kg_artem в телеграме для любых вопросов
 **Вариант 21.** Задача о нелюдимых садовниках. Условие оставлю снизу.
 
-![]([https://disk.yandex.ru/i/jQsJo9ANt3f1W](https://s22klg.storage.yandex.net/rdisk/462bc71f02b01631ae589110bd5f0859477496441329e0d7cfccd0607dbe235b/658228cb/fKqInKw3d7bLFOeFnMGnhAWcWBI65efizSzRUHDMLvFpCbFdksMcMK_LC_oBhJm7bN5NPUWSbyMugUzGP_05oivvhhN6RNtERwte9TzngnKr8npumZHI4midPdWhecNq?uid=0&filename=kandinsky-download-1702721904045.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&fsize=1689411&hid=fc9f22c84844f4aa62dce6cdfd026c75&media_type=image&tknv=v2&etag=2cbb6412eb51718c177c33b1d666f21e&rtoken=BpSb06rwaqmz&force_default=no&ycrid=na-14df73d2cd17af62062a0db7ec92ebe8-downloader3e&ts=60ce552f388c0&s=8133da98f77794c5b9664aeb49c8d3980dac8719138058331195362c9ae69725&pb=U2FsdGVkX18TBC0_yPNf2q9eMknCbuvUYJjh4ty5Gv40vVBVvXmRMxljhyC-fDN9xbOTRdtDtn_WjYNU2o8oWz2TmKChOC-Y6C0enKrzPk44Df_FYPw0Rj6XOPde4cpJ)g)
+![](https://downloader.disk.yandex.ru/preview/6b130e8d2c45fc2a6ea5d313bc46ce1060bc46609e2ec26cc80f354d37fa57c5/658228cb/WDMfxoT8AFL9bktVSBMzPjwFQBa-ABBv-0oFmtxzmtSND7UHHGv8HVMRFS_UxnR1GNvGeXikr06HlE1ijCh4mw%3D%3D?uid=0&filename=kandinsky-download-1702721904045.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2744x1402)
 
 [Целевая программа](ihw4.cpp) и [уже собранный файл для запуска](ihw4)
 
