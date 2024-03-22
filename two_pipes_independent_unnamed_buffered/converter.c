@@ -6,6 +6,9 @@
 #include <sys/fcntl.h>
 #include <sys/stat.h>
 
+#define FILE_TO_PROCESS 1
+#define PROCESS_TO_FILE 2
+
 int     fd1, fd2;
 char *pipe_name_one = "pipe1";
 char *pipe_name_two = "pipe2";
@@ -38,7 +41,18 @@ int main() {
         exit(1);
     }
 
-    read(fd1, double_str, sizeof(double_str));
+    char buffer[buf_size];
+    int read_b = 0;
+    char* temp = double_str;
+    while ((read_b = read(fd1, buffer, sizeof(buffer)))) {
+        if (read_b < 0) {
+            fprintf(stderr, "Error reading from pipe.\n");
+            exit(1);
+        }
+        memcpy(double_str, buffer, read_b);
+        temp += read_b;
+    }
+
     int bytes1, bytes2;
     char str1[memoryAmount] = {0}, str2[memoryAmount] = {0};
 
